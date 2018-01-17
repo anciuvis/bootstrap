@@ -41,14 +41,13 @@ a:hover {
 }
 
 video {
-	width: 100%;
+	max-width: 100%;
 }
 
 header {
 	position: absolute;
 	top: 0;
-	left: 0;
-	right: 0;
+	width: 100%;
 }
 
 header nav {
@@ -97,7 +96,10 @@ input {
 	border: 0;
 }
 
-/* MAIN */
+input::-webkit-input-placeholder {
+	color: #94badf;
+}
+
 main.container {
 	position: relative;
 	top: -200px;
