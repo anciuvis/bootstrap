@@ -44,6 +44,12 @@ video {
 	max-width: 100%;
 }
 
+.video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 header {
 	position: absolute;
 	top: 0;
@@ -69,6 +75,7 @@ header nav a:hover {
 }
 
 #tagline {
+	position: absolute;
 	color: white;
 	padding: 10% 50px;
 	text-align: center;
@@ -102,7 +109,7 @@ input::-webkit-input-placeholder {
 
 main.container {
 	position: relative;
-	top: -200px;
+	top: -87px;
 }
 
 main h2 {
