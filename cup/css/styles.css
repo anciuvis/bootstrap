@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Open Sans', serif;
-	color: #686868;
+	color: #6a6a6a;
 	background-color: #f3f3f2;
 	--green-color: 150, 176, 17;
 }
@@ -102,7 +102,7 @@ p {
 }
 
 a {
-	color: #666666;
+	color: inherit;
 }
 
 a:focus, a:hover {
@@ -131,7 +131,15 @@ a:focus, a:hover {
 .fancy-font {
 	font-family: 'Amaranth';
 	margin: 0;
-	padding-bottom: 1rem;
+	vertical-align: middle;
+}
+
+h3 {
+	padding: 1.5rem;
+}
+
+.selection>h3 {
+	padding: 0 0 1rem 0;
 }
 
 .badge {
@@ -169,14 +177,13 @@ a:focus, a:hover {
 }
 
 .tea-item-name {
-	text-transform: uppercase;
-	font-size: 1.5rem;
-	font-weight: bold;
+	font-variant: small-caps;
 }
 
 .desc {
 	display: flex;
 	justify-content: space-between;
+	margin: 4.5rem 0;
 }
 
 .bg-rose {
@@ -189,4 +196,8 @@ a:focus, a:hover {
 
 .bg-teal {
 	background-color: #4ecdc5;
+}
+
+h4 {
+	font-size: 2rem;
 }
