@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Open Sans', serif;
-	color: #666666;
+	color: #686868;
 	background-color: #f3f3f2;
 	--green-color: 150, 176, 17;
 }
@@ -101,6 +101,10 @@ p {
 	transition: ease 0.2s;
 }
 
+a {
+	color: #666666;
+}
+
 a:focus, a:hover {
 	text-decoration: none;
 	color: inherit;
@@ -121,7 +125,7 @@ a:focus, a:hover {
 }
 
 .text-whitepure {
-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 }
 
 .fancy-font {
@@ -139,7 +143,50 @@ color: rgb(255, 255, 255);
 	margin-top: 2rem;
 }
 
+.selection {
+	padding: 1.5rem;
+}
+
 .tea {
 	display: flex;
+	justify-content: space-around;
+	padding: 1.5rem;
+	text-align: center;
+	transition: ease 0.2s;
+}
+
+.tea-anchor {
+	display: block;
+}
+
+.tea:hover .tea-item {
+	opacity: 0.5;
+	transition: ease 0.2s;
+}
+
+.tea .tea-item:hover {
+	opacity: 1;
+}
+
+.tea-item-name {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.desc {
+	display: flex;
 	justify-content: space-between;
+}
+
+.bg-rose {
+	background-color: #e26a69;
+}
+
+.bg-canary {
+	background-color: #f4b350;
+}
+
+.bg-teal {
+	background-color: #4ecdc5;
 }
