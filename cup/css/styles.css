@@ -14,7 +14,7 @@ p {
 }
 
 .container {
-	width: 70%;
+	width: 75%;
 	margin: 0 auto;
 }
 
@@ -81,8 +81,8 @@ p {
 	font-weight: bold;
 }
 
-.fa-shopping-cart {
-	font-size: 5rem;
+.fa-shopping-cart, .banner-low-item i {
+	font-size: 4rem;
 	opacity: 0.7;
 }
 
@@ -135,7 +135,7 @@ a:focus, a:hover {
 }
 
 h3 {
-	padding: 1.5rem;
+	font-size: 2rem;
 }
 
 .selection>h3 {
@@ -183,7 +183,23 @@ h3 {
 .desc {
 	display: flex;
 	justify-content: space-between;
-	margin: 4.5rem 0;
+	margin: 4.5rem 0rem;
+}
+
+.desc-item {
+	margin: 1rem;
+}
+
+.desc-header {
+	padding: 1.5rem;
+}
+
+.desc-item:first-child {
+	margin-left: 0;
+}
+
+.desc-item:last-child {
+	margin-right: 0;
 }
 
 .bg-rose {
@@ -200,4 +216,31 @@ h3 {
 
 h4 {
 	font-size: 2rem;
+}
+
+.desc-content {
+	padding: 2rem;
+	text-align: center;
+}
+
+footer {
+	background: url('../img/bg.jpg') no-repeat center bottom;
+	background-color: rgb(var(--green-color));
+}
+
+.banner-low {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+}
+
+.nav-low {
+	display: flex;
+	justify-content: space-around;
+}
+
+img {
+	max-width: 100%;
 }
