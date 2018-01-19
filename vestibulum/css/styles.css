@@ -1,0 +1,31 @@
+*	{
+	box-sizing: border-box;
+}
+html {
+	--navbar-text-color: 255, 255, 255;
+	--theme-color: 118, 199, 192;
+	font-size: 13px;
+}
+body{
+	font-family: 'Open Sans', arial, sans-serif;
+}
+.navbar {
+	background: url('../header_bg.png') repeat-x bottom;
+	background-color: rgb(var(--theme-color));
+}
+.container-fluid {
+	display: flex;
+	justify-content: space-between;
+}
+.navbar-header {
+	padding: 25px 0;
+}
+.navbar-collapse {
+	padding: 15px 0 15px 0;
+}
+.text-navbar {
+	color: rgb(var(--navbar-text-color));
+}
+a {
+	color: rgb(var(--navbar-text-color));
+}
